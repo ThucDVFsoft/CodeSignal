@@ -1,0 +1,26 @@
+# Intermediate files
+*.suo
+*.user
+Thumbs.db
+*conflicted*
+[Bb]in/
+[Oo]bj/
+.vs/
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+/Q&A.xlsx
+
+# SonarQube
+.sonarqube/
+!CodeAnalyze/
+/ToolMigrating/Output
+*.bak
+/Bin
+/LuckyNumber/Debug/LuckyNumber.tlog/*.tlog
+/LuckyNumber/Debug/LuckyNumber.tlog/*.lastbuildstate
+/LuckyNumber/Debug/*.idb
+/NewNumeralSystem/Debug/NewNumeralSystem.tlog/*.tlog
+/NewNumeralSystem/Debug/NewNumeralSystem.tlog/*.lastbuildstate
+/NewNumeralSystem/Debug/*.idb
